@@ -1,6 +1,7 @@
 const knex = require('knex')
 const app = require('../src/app')
 const helpers = require('./test-helpers')
+const bcrypt = require('bcryptjs')
 
 describe('Things Endpoints', function() {
   let db
